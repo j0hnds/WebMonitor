@@ -25,6 +25,9 @@
 		55C711C314B25C57008D8027 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C7119C14B25C56008D8027 /* CoreData.framework */; };
 		55C711CB14B25C57008D8027 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55C711C914B25C57008D8027 /* InfoPlist.strings */; };
 		55C711CE14B25C57008D8027 /* WebMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C711CD14B25C57008D8027 /* WebMonitorTests.m */; };
+		55C711D814B25D8E008D8027 /* eeyore-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C711D714B25D8E008D8027 /* eeyore-57x57.png */; };
+		55C711DA14B25DD9008D8027 /* eeyore-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C711D914B25DD9008D8027 /* eeyore-114x114.png */; };
+		55C711DC14B25E5F008D8027 /* eeyore-72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C711DB14B25E5F008D8027 /* eeyore-72x72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,25 +46,28 @@
 		55C7119814B25C56008D8027 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55C7119A14B25C56008D8027 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		55C7119C14B25C56008D8027 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		55C711A014B25C56008D8027 /* WebMonitor-Info.plist */ = {isa = PBXFileReference; path = "WebMonitor-Info.plist"; sourceTree = "<group>"; };
+		55C711A014B25C56008D8027 /* WebMonitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebMonitor-Info.plist"; sourceTree = "<group>"; };
 		55C711A214B25C56008D8027 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55C711A414B25C57008D8027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55C711A614B25C57008D8027 /* WebMonitor-Prefix.pch */ = {isa = PBXFileReference; path = "WebMonitor-Prefix.pch"; sourceTree = "<group>"; };
-		55C711A714B25C57008D8027 /* WMAppDelegate.h */ = {isa = PBXFileReference; path = WMAppDelegate.h; sourceTree = "<group>"; };
+		55C711A614B25C57008D8027 /* WebMonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebMonitor-Prefix.pch"; sourceTree = "<group>"; };
+		55C711A714B25C57008D8027 /* WMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMAppDelegate.h; sourceTree = "<group>"; };
 		55C711A814B25C57008D8027 /* WMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMAppDelegate.m; sourceTree = "<group>"; };
 		55C711AB14B25C57008D8027 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		55C711AE14B25C57008D8027 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		55C711B114B25C57008D8027 /* WebMonitor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebMonitor.xcdatamodel; sourceTree = "<group>"; };
-		55C711B314B25C57008D8027 /* WMMasterViewController.h */ = {isa = PBXFileReference; path = WMMasterViewController.h; sourceTree = "<group>"; };
+		55C711B314B25C57008D8027 /* WMMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMasterViewController.h; sourceTree = "<group>"; };
 		55C711B414B25C57008D8027 /* WMMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMMasterViewController.m; sourceTree = "<group>"; };
-		55C711B614B25C57008D8027 /* WMDetailViewController.h */ = {isa = PBXFileReference; path = WMDetailViewController.h; sourceTree = "<group>"; };
+		55C711B614B25C57008D8027 /* WMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMDetailViewController.h; sourceTree = "<group>"; };
 		55C711B714B25C57008D8027 /* WMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMDetailViewController.m; sourceTree = "<group>"; };
 		55C711BE14B25C57008D8027 /* WebMonitorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebMonitorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C711BF14B25C57008D8027 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		55C711C814B25C57008D8027 /* WebMonitorTests-Info.plist */ = {isa = PBXFileReference; path = "WebMonitorTests-Info.plist"; sourceTree = "<group>"; };
+		55C711C814B25C57008D8027 /* WebMonitorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebMonitorTests-Info.plist"; sourceTree = "<group>"; };
 		55C711CA14B25C57008D8027 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		55C711CC14B25C57008D8027 /* WebMonitorTests.h */ = {isa = PBXFileReference; path = WebMonitorTests.h; sourceTree = "<group>"; };
+		55C711CC14B25C57008D8027 /* WebMonitorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebMonitorTests.h; sourceTree = "<group>"; };
 		55C711CD14B25C57008D8027 /* WebMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebMonitorTests.m; sourceTree = "<group>"; };
+		55C711D714B25D8E008D8027 /* eeyore-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eeyore-57x57.png"; sourceTree = "<group>"; };
+		55C711D914B25DD9008D8027 /* eeyore-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eeyore-114x114.png"; sourceTree = "<group>"; };
+		55C711DB14B25E5F008D8027 /* eeyore-72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eeyore-72x72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,9 @@
 		55C7118714B25C56008D8027 = {
 			isa = PBXGroup;
 			children = (
+				55C711DB14B25E5F008D8027 /* eeyore-72x72.png */,
+				55C711D914B25DD9008D8027 /* eeyore-114x114.png */,
+				55C711D714B25D8E008D8027 /* eeyore-57x57.png */,
 				55C7119E14B25C56008D8027 /* WebMonitor */,
 				55C711C614B25C57008D8027 /* WebMonitorTests */,
 				55C7119514B25C56008D8027 /* Frameworks */,
@@ -241,6 +250,9 @@
 				55C711A314B25C56008D8027 /* InfoPlist.strings in Resources */,
 				55C711AC14B25C57008D8027 /* MainStoryboard_iPhone.storyboard in Resources */,
 				55C711AF14B25C57008D8027 /* MainStoryboard_iPad.storyboard in Resources */,
+				55C711D814B25D8E008D8027 /* eeyore-57x57.png in Resources */,
+				55C711DA14B25DD9008D8027 /* eeyore-114x114.png in Resources */,
+				55C711DC14B25E5F008D8027 /* eeyore-72x72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
